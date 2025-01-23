@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5 text-center">
+            <h1 class="display-5 fw-bold">Welcome to our Multi-Modal Emotion Classifier</h1>
+
+            <!-- Updated Button Logic -->
+            <a class="btn btn-primary btn-lg" href="{{ url_for('multimodal') }}" role="button">Multimodal Analysis</a>
+        </div>
+    </div>
+{% endblock %}
